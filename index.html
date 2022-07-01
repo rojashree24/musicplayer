@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="section-1">
+            <div class="title">The Band -> Let's Ur Choice.  🕺💃</div>
+            <div class="audios" >
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/thozhiya.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Thozhiya - Vijay Antony</h2>
+                        <button onclick="playAudio(1)" class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/anbil avan.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Anbil Avan - A.R.Rahman</h2>
+                        <button onclick="playAudio(2)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/naan pogiren.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Naan Pogiren - S.P.B</h2>
+                        <button onclick="playAudio(3)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/Thandavam.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Oru Pathi Kadavu - G.V</h2>
+                        <button onclick="playAudio(4)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/3.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Nee Partha Vizhigal - Anirudh</h2>
+                        <button onclick="playAudio(5)" class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/mudhal.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Mudhal Nee  - Sid Sriram</h2>
+                        <button onclick="playAudio(6)" class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/sachein1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Kanmoodi Thirakum - D.S.P</h2>
+                        <button onclick="playAudio(7)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/vaamanan.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Aedho sei - Yuvan Shankar Raja</h2>
+                        <button onclick="playAudio(8)" class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/vettaikaran1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Oru Chinna - Vijay Antony</h2>
+                        <button onclick="playAudio(9)" class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/vc1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Oh Penne - Anirudh</h2>
+                        <button onclick="playAudio(10)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/vedi1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Ippadi - VJ Antony</h2>
+                        <button onclick="playAudio(11)"class="btn">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="image">
+                        <img src="./thumbnails/beast.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h2>Arabic Kuthu - Anirudh</h2>
+                        <button onclick="playAudio(12)"class="btn">Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+                <div class="thumbnail">
+                    <img id="thumbnail" src="./thumbnails/thozhiya.jpg" alt="">
+                </div>
+                <audio src="./audio/Thozhiya-En-Kadhaliya.mp3" controls class="aud-player" id="aud-player"></audio>
+                <h2 class="aud-title" id="aud-title">Thozhiya - Vijay Antony</h2>
+        </div>
+
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
